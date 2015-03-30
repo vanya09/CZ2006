@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="ProgressBarStyle" parent="@android:style/Widget.Holo.ProgressBar">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:indeterminate">true</item>
+        <item name="cpb_color">@color/color_red_accent</item>
+        <item name="cpb_max_sweep_angle">300</item>
+        <item name="cpb_min_sweep_angle">10</item>
+        <item name="cpb_rotation_speed">1.0</item>
+        <item name="cpb_stroke_width">4dp</item>
+        <item name="cpb_sweep_speed">1.0</item>
+    </style>
+
+    <style name="HorizontalProgressBarStyle" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:max">5</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:progressDrawable">@drawable/progress_drawable</item>
+    </style>
+
+    <style name="HorizontalProgressBarStyle.Secondary" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:max">5</item>
+        <item name="android:progressDrawable">@drawable/progress_drawable</item>
+    </style>
+
+</resources>
